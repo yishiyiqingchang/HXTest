@@ -13,6 +13,7 @@
 		08EFB2301DEF3A9D00CA0A92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EFB22E1DEF3A9D00CA0A92 /* Main.storyboard */; };
 		08EFB2321DEF3A9D00CA0A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EFB2311DEF3A9D00CA0A92 /* Assets.xcassets */; };
 		08EFB2351DEF3A9D00CA0A92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EFB2331DEF3A9D00CA0A92 /* LaunchScreen.storyboard */; };
+		08EFB23F1DEF3B3D00CA0A92 /* ect.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EFB23E1DEF3B3D00CA0A92 /* ect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		08EFB2311DEF3A9D00CA0A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08EFB2341DEF3A9D00CA0A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08EFB2361DEF3A9D00CA0A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EFB23D1DEF3B3D00CA0A92 /* ect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ect.h; sourceTree = "<group>"; };
+		08EFB23E1DEF3B3D00CA0A92 /* ect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		08EFB23C1DEF3AB100CA0A92 /* 我的框架 */ = {
 			isa = PBXGroup;
 			children = (
+				08EFB23D1DEF3B3D00CA0A92 /* ect.h */,
+				08EFB23E1DEF3B3D00CA0A92 /* ect.m */,
 			);
 			path = "我的框架";
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08EFB23F1DEF3B3D00CA0A92 /* ect.m in Sources */,
 				08EFB22D1DEF3A9D00CA0A92 /* ViewController.m in Sources */,
 				08EFB22A1DEF3A9D00CA0A92 /* AppDelegate.m in Sources */,
 				08EFB2271DEF3A9D00CA0A92 /* main.m in Sources */,
